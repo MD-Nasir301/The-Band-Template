@@ -1,0 +1,207 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;0,700;0,900;1,400;1,700;1,900&display=swap');
+/* Default Css: */
+    
+body {
+    font-family: 'Lato', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    line-height: 23px;
+    color: black;
+}
+h1,h2,h3,h4,h5,h6 {
+    font-family: "Segoe UI", Arial, sans-serif; 
+    font-size: 30px;
+    font-weight: 400;
+    line-height: 45px;
+    color: #000018;
+    letter-spacing: 4px;
+}
+
+/* nav */
+.main-menu {
+    list-style: none;
+    background: #000;
+    padding: 0;
+    margin: 0;
+}
+.main-menu li {
+    float: left;
+    position: relative;
+}
+.main-menu li a{
+    display: block;
+    padding: 11.5px 24px;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: white;
+}
+.main-menu li:hover{
+    background: #C9C9C9;
+}
+.main-menu li:hover a{
+    color: #000;
+}
+ul.dropdown {
+    display: none;
+    background: white;
+    position: absolute;
+    top: 46px;
+    left: 0px;
+    z-index: 55555;
+}
+ul.dropdown li {
+    display: block;
+    float: none;
+}
+ul.dropdown li a {
+    font-size: 15px;
+    text-transform: capitalize;
+    color: black;
+    padding: 7px 60px 8px 15px;
+}
+.main-menu li:hover > ul.dropdown {
+    display: block;
+}
+.search-btn {
+    border: none;
+    background: transparent;
+    color: white;
+    padding: 11.5px 24px;
+}
+.main-menu button.search-btn:hover {
+    background: #fd1e1e;
+    color: black;
+}
+
+/* slider */
+#slider {
+    margin-top: 46px;
+}
+.carousel-caption h5 {
+    font-size: 24px;
+    letter-spacing: normal;
+    color: #fff;
+}
+.carousel-caption p {
+    font-weight: 600;
+}
+
+/* about-us */
+#about-us {
+    margin-tp: 75px;
+} 
+.text-gray {
+    opacity: 0.6;
+}
+.about-us-text {
+    line-height: 1.4;
+}
+.about-us-img {
+    padding: 41px;
+}
+
+/* tour-date */
+#tour-date {
+    background: #000;
+}
+.py-6 {
+    padding: 75px 0;
+}
+.tour-date-list {
+    background: white;
+    padding: 0;
+    margin: 0;
+}
+
+.tour-date-list li {
+    padding: 8px 16px;
+    color: #757575;
+    border-bottom: 1px solid #ddd;
+}
+.my-badge {
+    background: #f44336;
+    color: white;
+    padding: 2px 8px;
+    margin-left: 10px;
+}
+.my-badge2 {
+    background: #000;
+    background: #000;
+    padding: 0px 8px;
+    border-radius: 50%;
+}
+.card {
+    border: none;
+    border-radius: 0%;
+    -webkit-border-radius: 0%;
+    -moz-border-radius: 0%;
+    -ms-border-radius: 0%;
+    -o-border-radius: 0%;
+}
+.card-title {
+    font-size: 15px;
+    font-weight: 700;
+    letter-spacing: normal;
+    margin: 5px 0;
+}
+.card-body {
+    padding: 0px 18px 18px 18px;
+}
+.ticket-date {
+    color: gray;
+}
+.card-text {
+    color: black;
+}
+.my-btn {
+    display: inline-block;
+    color: white;
+    background: black;
+    padding: 10px 15px;
+    border: none;
+}
+.my-btn:hover{
+    text-decoration: none;
+    color: gray;
+}
+.mr--5 {
+    margin-right: -5px;
+}
+/* Contact are*/
+.address li {
+    font-size: 18px;
+    padding-bottom: 5px;
+}
+.contact-form input {
+    padding: 8px;
+    width: 48%;
+    border: 1px solid #ccc;
+}
+.input-name {
+    margin-right: 12px;
+}
+.social-link {
+    font-size: 24px;
+}
+.social-link i:hover{
+    opacity: .5;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

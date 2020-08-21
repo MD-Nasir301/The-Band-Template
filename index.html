@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Band</title>
+    <!-- Bootstrap Css -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- Font-Awesome Css -->
+    <link rel="stylesheet" href="css/all.min.css">
+    <!-- My Css -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="fixed-top">
+            <ul class="main-menu clearfix">
+                <li><a href="#">Home</a></li>
+                <li><a href="#about-us">Band</a></li>
+                <li><a href="#tour-date">Tour</a></li>
+                <li><a href="#contact">Contact</a></li>
+
+
+                <li>
+                    <a href="#">More <i class="fas fa-caret-down" ></i></a>
+                    <ul class="dropdown list-unstyled shadow-sm">
+                        <li> <a href="">Merchandise</a> </li>
+                        <li> <a href="">Extras</a> </li>
+                        <li> <a href="">Media</a> </li>
+                    </ul>
+                </li>
+                <button class="search-btn float-right" type="button"><i class="fas fa-search"></i></button>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="slider">
+        <div id="carouselExampleCaptions" class="carousel slide" data-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <img src="img/la.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Los Angeles</h5> 
+                  <p>We had the best time playing at Venice Beach!</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/ny.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>New York</h5>
+                  <p>The atmosphere in New York is lorem ipsum.</p>
+                </div>
+              </div>
+              <div class="carousel-item">
+                <img src="img/chicago.jpg" class="d-block w-100" alt="...">
+                <div class="carousel-caption d-none d-md-block">
+                  <h5>Chicago </h5>
+                  <p>Thank you, Chicago - A night we won't forget.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+    </section>
+
+    <main>
+        <section id="about-us" class="py-6" > 
+            <div class="container">
+                <div class="about-us-wrapper">
+                    <h2 class="text-uppercase text-center">The Band</h2>
+                    <p class="font-italic text-center text-gray">We love music</p>
+                    <p class=" about-us-text text-justify">We have created a fictional band website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="about-us-img">
+                            <p class="text-center">Name</p>
+                            <img class="img-fluid rounded" src="img/bandmember.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="about-us-img">
+                            <p class="text-center">Name</p>
+                            <img class="img-fluid rounded" src="img/bandmember.jpg" alt="">
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="about-us-img">
+                            <p class="text-center">Name</p>
+                            <img class="img-fluid rounded" src="img/bandmember.jpg" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="tour-date" class="py-6 text-white">
+            <div class="container">
+                <h2 class="text-center text-uppercase text-white mb-3">Tour Dates</h2>
+                <p class="text-center text-white text-gray font-italic pb-2">Remember to book your tickets!</p>
+                <ul class="list-unstyled tour-date-list my-4">
+                    <li>September <span class="my-badge">Sold out</span></li>
+                    <li>October <span class="my-badge">Sold out</span> </li>
+                    <li>November <span class="d-block float-right text-white my-badge2">3</span> </li>
+                </ul>
+                <div class="ticket-wrap">
+                    <div class="row">
+                        <div class="col-md-4 mr--5 py-2 pb-4">
+                            <div class="card single-ticket" style="width: 15.5rem;">
+                                <img src="img/newyork.jpg" class="card-img-top" alt="...">
+                                <div class="card-body pt-0">
+                                    <h5 class="card-title">New York</h5>
+                                    <p class="ticket-date">Fri 27 Nov 2016</p>
+                                    <p class="card-text pb-2">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <a href="#" class="my-btn">Buy Tickets</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mr--5  pt-2 pb-4">
+                            <div class="card single-ticket" style="width: 15.5rem;">
+                                <img src="img/paris.jpg" class="card-img-top" alt="...">
+                                <div class="card-body pt-0">
+                                    <h5 class="card-title">Paris</h5>
+                                    <p class="ticket-date">Sat 28 Nov 2016</p>
+                                    <p class="card-text pb-2">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <a href="#" class="my-btn">Buy Tickets</a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4 mr--5  pt-2 pb-4">
+                            <div class="card single-ticket" style="width: 15.5rem;">
+                                <img src="img/sanfran.jpg" class="card-img-top" alt="...">
+                                <div class="card-body pt-0">
+                                    <h5 class="card-title">San Francisco</h5>
+                                    <p class="ticket-date">Sun 29 Nov 2016</p>
+                                    <p class="card-text pb-2">Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                                    <a href="#" class="my-btn">Buy Tickets</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="py-6">
+            <div class="container">
+                <h2 class="text-center text-uppercase">Contact</h2>
+                <p class="text-center font-italic text-gray py-2">Fan? Drop a note!</p>
+                <div class="row no-gutters mt-4 pt-3">
+                    <div class="col-md-6">
+                        <ul class="list-unstyled address">
+                            <li><i class="fas fa-map-marker-alt pr-3"></i> Chicago, US</li>
+                            <li><i class="fas fa-phone-alt pr-3"></i> Phone: +00 151515</li>
+                            <li><i class="fas fa-envelope pr-3"></i> Email: mail@mail.com</li>
+                        </ul>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="contact-form">
+                            <form action="">
+                                <input class="input-name" type="text" placeholder="Name">
+                                <input type="password" placeholder="Email">
+                                <input class="w-100 mt-2" type="text" placeholder="Massage">
+                                <button class="my-btn float-right my-3 py-2">SEND</button>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="map-area" class="py-3">
+            <img class="img-fluid" src="img/map.jpg" alt="">
+        </section>
+
+    </main>
+
+    <footer>
+        <div class="footer-area text-center py-5">
+            <div class="social-link text-gray">
+                <i class="fab fa-facebook-square"></i>
+                <i class="fab fa-instagram"></i>
+                <i class="fab fa-snapchat"></i>
+                <i class="fab fa-pinterest-p"></i>
+                <i class="fab fa-twitter"></i>
+                <i class="fab fa-linkedin-in"></i>
+            </div>
+            <p class="text-center text-gray pt-3">Template from <a target="_black" href="https://www.w3schools.com/">w3 School</a></p>
+        </div>
+    </footer>
+
+
+    <!-- jquery & Bootstrap js file  -->
+    <script src="js/jquery.slim.min.js"></script>
+    <script src="js/popover.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
